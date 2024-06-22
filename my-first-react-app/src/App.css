@@ -115,3 +115,9 @@ button:hover {
     height: 200px;
     width: 200px;
 }
+.won,
+.lost {
+    z-index: 2;
+    background-color: #111f68;
+    border-radius: 10px;
+}
