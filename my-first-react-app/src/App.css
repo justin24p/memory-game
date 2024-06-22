@@ -56,7 +56,7 @@ button {
     transition: transform 0.3s ease;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
-button:hover {
+.menu button:hover {
     transform: translateY(-10px);
 }
 .button-box {
@@ -117,7 +117,25 @@ button:hover {
 }
 .won,
 .lost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    background-color: #111f68;
+    background-image: url("./Components/img/background.png");
+    background-size: cover;
+    width: 700px;
+    height: 350px;
     border-radius: 10px;
+}
+.won button,
+.lost button {
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.won button:hover,
+.lost button:hover {
+    transform: scale(1.1);
 }

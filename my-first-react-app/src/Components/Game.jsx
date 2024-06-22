@@ -3,7 +3,7 @@ import img from "../assets/logo.png";
 import { useState, useEffect } from "react";
 import Lost from "./Lost";
 import Won from "./Won";
-
+import background from "./img/background.png";
 import img1 from "./img/jin.png";
 import img2 from "./img/brook.png";
 import img3 from "./img/chopper.png";
