@@ -22,7 +22,9 @@ video {
     align-items: center;
     color: white;
 }
+
 .nav {
+    z-index: 2;
     position: absolute;
     top: 0;
     width: 100%;
@@ -89,4 +91,27 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 800;
     color: white;
+}
+.card-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 20px;
+}
+.card {
+    cursor: pointer;
+    background-color: #111f68;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card img {
+    position: relative;
+    height: 200px;
+    width: 200px;
 }
